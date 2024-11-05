@@ -6,8 +6,8 @@ public class PracticeGitIgnore {
         String firstName = sc.nextLine();
         System.out.println("Enter last name: ");
         String lastName = sc.nextLine();
-        String name = firstName + " " + lastName;
-        System.out.println("Full Name:" + name);
+        String name = firstName.concat(lastName);
+        System.out.println("Full Name: " + name);
     }
 }
 
