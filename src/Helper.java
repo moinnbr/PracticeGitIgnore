@@ -5,13 +5,14 @@ public class Helper {
         public static String getInput(String prompt) {
         System.out.print(prompt);
 
-        return null;
+        return scanner.nextLine();
     }
 
     public static int getIntInput(String prompt) {
         System.out.print(prompt);
 
-        return 0;
+        return Integer.parseInt(scanner.nextLine());
+
     }
 
     public static void closeScanner() {
